@@ -31,9 +31,6 @@ timerHardware_t timerHardware[] = {
     DEF_TIM(TIM4, CH1, PB6,   TIM_USE_OUTPUT_AUTO, 0, 0),  // S5 DMA1_S0_CH2
     DEF_TIM(TIM4, CH2, PB7,   TIM_USE_OUTPUT_AUTO, 0, 0),  // S6 DMA1_S3_CH2
 
-    DEF_TIM(TIM2, CH3, PB10,  TIM_USE_OUTPUT_AUTO, 0, 0),  // S7 DMA1_S1_CH3
-    DEF_TIM(TIM2, CH4, PB11,  TIM_USE_OUTPUT_AUTO, 0, 1),  // S8 DMA1_S6_CH3
-
     DEF_TIM(TIM1, CH1, PA8,  TIM_USE_LED,                         0, 0),  // WS2812B
 };
 
